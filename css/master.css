@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: font-1;
+    src: url("../font/JosefinSans-VariableFont_wght.ttf") format("opentype");
+  }
+@font-face {
+    font-family: font-2;
+    src: url("../font/BebasNeue-Regular.ttf") format("opentype");
+  }
+@font-face {
+    font-family: font-3;
+    src: url("../font/Dangrek-Regular.ttf") format("opentype");
+  }
+.area{
+  grid-area: 1/1/2/2;
+}
